@@ -1,0 +1,10 @@
+
+services:
+  golang:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    working_dir: /app
+    tty: true
