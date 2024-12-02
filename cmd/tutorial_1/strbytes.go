@@ -6,7 +6,7 @@ import (
 )
 
 // Strings are immutable in go.
-func main() {
+func main4() {
 
 	myStr := "résumé"
 	ch2 := myStr[1] //rune(integer) first half (8 bits of 16 bits)
