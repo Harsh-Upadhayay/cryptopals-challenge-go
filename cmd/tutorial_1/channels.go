@@ -8,7 +8,7 @@ import (
 
 var MAX_CHICKEN_PRICE = 5
 
-func main() {
+func main7() {
 	var chickenChannel = make(chan string)
 	var websites = []string{"a.com", "b.com", "c.com"}
 	for i := range websites {
